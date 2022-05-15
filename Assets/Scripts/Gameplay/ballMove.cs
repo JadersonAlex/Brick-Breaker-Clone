@@ -9,8 +9,9 @@ public class ballMove : MonoBehaviour
     public float dy = -0.04f;
     public float speed = 2f;
 
-    public GameObject Panel_Win;
-
+    public GameObject Panel_Win; 
+    public AudioSource Soundball;
+   // public AudioSource DestroyBrick;
     void Start()
     {
         
@@ -78,6 +79,7 @@ public class ballMove : MonoBehaviour
         }
         else if (collision.gameObject.tag == "brick")
         {
+            Soundball.Play();
             dy *= -1;
             Destroy(collision.gameObject);
         }

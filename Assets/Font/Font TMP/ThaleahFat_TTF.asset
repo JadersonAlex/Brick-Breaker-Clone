@@ -57,9 +57,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: ThaleahFat_TTF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -1701193513
   material: {fileID: 5570726227658689922}
-  materialHashCode: 0
+  materialHashCode: 534573207
   m_Version: 1.1.0
   m_SourceFontFileGUID: 8a1940b214ff039408f851ad1fb5752f
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 8a1940b214ff039408f851ad1fb5752f, type: 3}
